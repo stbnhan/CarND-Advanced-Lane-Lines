@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 [image4]: ./img/straight_lines2_colorbinary.jpg "Color Binary"
 [image5]: ./img/straight_lines2_findingthelines.jpg "Finding the Lines"
 [image6]: ./img/rofc.JPG "Radius of Curvature Equation"
-[image]: ./img/straight_lines1_final.jpg "Final Image"
+[image7]: ./img/straight_lines1_final.jpg "Final Image"
 [video1]: ./P4_project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -54,7 +54,9 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
+Before:  
 ![alt text][image1]
+After:  
 ![alt text][image2]
 
 ### Pipeline (single images)
